@@ -40,12 +40,12 @@ function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <h1 className="font-serif text-3xl font-bold text-rose-gold">
-            Aura Jewels
+            Aura Jewels-Prototype
           </h1>
         </Link>
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex space-x-8 text-[18px]">
           <Link 
             to="/" 
             className={`font-medium hover:text-rose-gold transition-colors ${

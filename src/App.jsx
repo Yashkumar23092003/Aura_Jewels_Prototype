@@ -23,7 +23,7 @@ function App() {
       <div className="min-h-screen flex items-center justify-center bg-ivory">
         <div className="text-center space-y-4">
           <div className="animate-spin w-12 h-12 border-4 border-rose-gold border-t-transparent rounded-full mx-auto"></div>
-          <h2 className="font-serif text-2xl text-charcoal">Aura Jewels</h2>
+          <h2 className="font-serif text-2xl text-charcoal">Aura Jewels-Prototype</h2>
         </div>
       </div>
     );

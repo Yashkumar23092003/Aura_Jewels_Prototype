@@ -66,16 +66,16 @@ function Home() {
         <div className="container-padding mx-auto relative z-10">
           <div className="max-w-xl mx-auto text-center">
             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl mb-6 animate-fade-in">
-              Timeless Elegance, <span className="text-rose-gold">Exquisite Craftsmanship</span>
+             <span className='text-white'>Timeless Elegance,</span> <span className="text-rose-gold">Exquisite Craftsmanship</span>
             </h1>
             <p className="text-lg md:text-xl opacity-90 mb-8 animate-fade-in delay-[300ms]">
               Discover our handcrafted luxury jewelry collection, where tradition meets contemporary design.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in delay-[600ms]">
-              <Link to="/products" className="btn-primary">
+              <Link to="/products" className="btn-primary rounded-full px-8 py-3">
                 Explore Collection
               </Link>
-              <Link to="#featured" className="btn-secondary">
+              <Link to="#featured" className="text-white btn-secondary bg-slate-900 rounded-full px-8 py-3 hover:bg-slate-800 transition-colors">
                 Featured Pieces
               </Link>
             </div>
@@ -179,7 +179,7 @@ function Home() {
           </div>
           
           <div className="text-center mt-12">
-            <Link to="/products" className="btn-primary">
+            <Link to="/products" className="btn-primary text-white btn-secondary  rounded-full px-8 py-3 hover:bg-rose-800 transition-colors">
               View All Products
             </Link>
           </div>

@@ -120,6 +120,32 @@
       "variants": [],
       "metalOptions": ["Yellow Gold", "White Gold", "Rose Gold"]
     },
+        {
+      "id": "r85",
+      "name": "Moonlight Diamond Ring",
+      "category": "rings",
+      "price": 1299.99,
+      "description": "A stunning ring featuring a brilliant-cut diamond set in 18k rose gold. The perfect statement piece for special occasions or as an engagement ring.",
+      "details": "1.2 carat diamond, VS1 clarity, F color, 18k rose gold band, handcrafted in our artisan studio.",
+      "features": ["Ethically sourced diamonds", "Lifetime warranty", "Free resizing"],
+      "materials": ["18k Rose Gold", "Diamond"],
+      "images": [
+        "/images/MoonlightRing.jpg",
+        "/images/MoonlightRing.jpg",
+        "/images/MoonlightRing.jpg"
+      ],
+      "inStock": true,
+      "featured": true,
+      "new": true,
+      "variants": [
+        { "size": "5", "available": true },
+        { "size": "6", "available": true },
+        { "size": "7", "available": true },
+        { "size": "8", "available": false },
+        { "size": "9", "available": true }
+      ],
+      "metalOptions": ["Rose Gold", "Yellow Gold", "White Gold"]
+    },
     {
       "id": "e2",
       "name": "Ruby Chandelier Earrings",
