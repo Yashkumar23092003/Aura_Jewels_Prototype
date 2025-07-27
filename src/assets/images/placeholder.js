@@ -1,0 +1,29 @@
+// This file creates base64 placeholder images for our product catalog
+// These will be used until real product images are available
+
+const placeholderImages = {
+  rings: [
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Ccircle cx='150' cy='150' r='70' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ccircle cx='150' cy='150' r='30' fill='%23b76e79' opacity='0.5'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3ERing Image%3C/text%3E%3C/svg%3E",
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Ccircle cx='150' cy='150' r='70' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ccircle cx='150' cy='150' r='30' fill='%23b76e79' opacity='0.5'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3ERing View%3C/text%3E%3C/svg%3E"
+  ],
+  necklaces: [
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Cpath d='M100,120 Q150,180 200,120' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ccircle cx='150' cy='150' r='20' fill='%23b76e79' opacity='0.5'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3ENecklace Image%3C/text%3E%3C/svg%3E",
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Cpath d='M100,120 Q150,180 200,120' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ccircle cx='150' cy='150' r='20' fill='%23b76e79' opacity='0.5'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3ENecklace View%3C/text%3E%3C/svg%3E"
+  ],
+  earrings: [
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Ccircle cx='120' cy='120' r='30' fill='none' stroke='%23b76e79' stroke-width='5'/%3E%3Ccircle cx='180' cy='120' r='30' fill='none' stroke='%23b76e79' stroke-width='5'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3EEarrings Image%3C/text%3E%3C/svg%3E",
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Ccircle cx='120' cy='120' r='30' fill='none' stroke='%23b76e79' stroke-width='5'/%3E%3Ccircle cx='180' cy='120' r='30' fill='none' stroke='%23b76e79' stroke-width='5'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3EEarrings View%3C/text%3E%3C/svg%3E"
+  ],
+  bracelets: [
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Cellipse cx='150' cy='150' rx='80' ry='50' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3EBracelet Image%3C/text%3E%3C/svg%3E",
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Crect width='300' height='300' fill='%23f0e6e8'/%3E%3Cellipse cx='150' cy='150' rx='80' ry='50' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ctext x='150' y='220' text-anchor='middle' font-family='Arial' font-size='16' fill='%23333333'%3EBracelet View%3C/text%3E%3C/svg%3E"
+  ],
+  categories: {
+    rings: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23f0e6e8'/%3E%3Ccircle cx='300' cy='200' r='100' fill='none' stroke='%23b76e79' stroke-width='12'/%3E%3Ccircle cx='300' cy='200' r='50' fill='%23b76e79' opacity='0.3'/%3E%3Ctext x='300' y='320' text-anchor='middle' font-family='Arial' font-size='36' font-weight='bold' fill='%23333333'%3ERings%3C/text%3E%3C/svg%3E",
+    necklaces: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23f0e6e8'/%3E%3Cpath d='M200,150 Q300,300 400,150' fill='none' stroke='%23b76e79' stroke-width='12'/%3E%3Ccircle cx='300' cy='220' r='40' fill='%23b76e79' opacity='0.3'/%3E%3Ctext x='300' y='320' text-anchor='middle' font-family='Arial' font-size='36' font-weight='bold' fill='%23333333'%3ENecklaces%3C/text%3E%3C/svg%3E",
+    earrings: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23f0e6e8'/%3E%3Ccircle cx='250' cy='150' r='50' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ccircle cx='350' cy='150' r='50' fill='none' stroke='%23b76e79' stroke-width='8'/%3E%3Ctext x='300' y='320' text-anchor='middle' font-family='Arial' font-size='36' font-weight='bold' fill='%23333333'%3EEarrings%3C/text%3E%3C/svg%3E",
+    bracelets: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23f0e6e8'/%3E%3Cellipse cx='300' cy='200' rx='120' ry='80' fill='none' stroke='%23b76e79' stroke-width='12'/%3E%3Ctext x='300' y='320' text-anchor='middle' font-family='Arial' font-size='36' font-weight='bold' fill='%23333333'%3EBracelets%3C/text%3E%3C/svg%3E"
+  }
+};
+
+export default placeholderImages;

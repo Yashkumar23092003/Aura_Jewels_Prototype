@@ -1,0 +1,255 @@
+{
+  "products": [
+    {
+      "id": "r1",
+      "name": "Moonlight Diamond Ring",
+      "category": "rings",
+      "price": 1299.99,
+      "description": "A stunning ring featuring a brilliant-cut diamond set in 18k rose gold. The perfect statement piece for special occasions or as an engagement ring.",
+      "details": "1.2 carat diamond, VS1 clarity, F color, 18k rose gold band, handcrafted in our artisan studio.",
+      "features": ["Ethically sourced diamonds", "Lifetime warranty", "Free resizing"],
+      "materials": ["18k Rose Gold", "Diamond"],
+      "images": [
+        "/images/MoonlightRing.jpg",
+        "/images/MoonlightRing.jpg",
+        "/images/MoonlightRing.jpg"
+      ],
+      "inStock": true,
+      "featured": true,
+      "new": true,
+      "variants": [
+        { "size": "5", "available": true },
+        { "size": "6", "available": true },
+        { "size": "7", "available": true },
+        { "size": "8", "available": false },
+        { "size": "9", "available": true }
+      ],
+      "metalOptions": ["Rose Gold", "Yellow Gold", "White Gold"]
+    },
+    {
+      "id": "r2",
+      "name": "Infinity Sapphire Band",
+      "category": "rings",
+      "price": 899.99,
+      "description": "An elegant band featuring alternating sapphires and diamonds in an infinity pattern. Perfect for anniversaries or as a statement piece.",
+      "details": "0.5 carat total weight sapphires, 0.25 carat total weight diamonds, 14k gold setting.",
+      "features": ["Blue Ceylon sapphires", "Conflict-free diamonds", "Complimentary cleaning"],
+      "materials": ["14k Gold", "Sapphire", "Diamond"],
+      "images": [
+        "/images/InfinityRing.jpg",
+        "/images/InfinityRing.jpg",
+        "/images/InfinityRing.jpg"
+      ],
+      "inStock": true,
+      "featured": false,
+      "new": false,
+      "variants": [
+        { "size": "5", "available": true },
+        { "size": "6", "available": true },
+        { "size": "7", "available": true },
+        { "size": "8", "available": true },
+        { "size": "9", "available": true }
+      ],
+      "metalOptions": ["Yellow Gold", "White Gold", "Rose Gold"]
+    },
+    {
+      "id": "n1",
+      "name": "Celestial Pearl Pendant",
+      "category": "necklaces",
+      "price": 799.99,
+      "description": "A delicate pendant featuring a lustrous South Sea pearl surrounded by a halo of diamonds. Suspended on a fine 18k gold chain.",
+      "details": "9mm South Sea pearl, 0.15 carat total weight diamonds, 18k gold, 18-inch chain with 2-inch extender.",
+      "features": ["Sustainably harvested pearl", "Adjustable length", "Secure clasp"],
+      "materials": ["18k Gold", "South Sea Pearl", "Diamond"],
+      "images": [
+        "/images/CelestialNecklace.jpg",
+        "/images/CelestialNecklace.jpg",
+        "/images/CelestialNecklace.jpg"
+      ],
+      "inStock": true,
+      "featured": true,
+      "new": false,
+      "variants": [
+        { "length": "16\"", "available": true },
+        { "length": "18\"", "available": true },
+        { "length": "20\"", "available": true }
+      ],
+      "metalOptions": ["Yellow Gold", "White Gold", "Rose Gold"]
+    },
+    {
+      "id": "n2",
+      "name": "Emerald Drop Necklace",
+      "category": "necklaces",
+      "price": 1499.99,
+      "description": "A stunning emerald drop necklace featuring a 2 carat Colombian emerald surrounded by a halo of diamonds. The perfect statement piece.",
+      "details": "2 carat Colombian emerald, 0.5 carat total weight diamonds, 18k gold, 18-inch chain.",
+      "features": ["Certified Colombian emerald", "Custom gift box", "Certificate of authenticity"],
+      "materials": ["18k Gold", "Emerald", "Diamond"],
+      "images": [
+        "/images/EmeraldNecklace.jpg",
+        "/images/EmeraldNecklace.jpg",
+        "/images/EmeraldNecklace.jpg"
+      ],
+      "inStock": true,
+      "featured": true,
+      "new": true,
+      "variants": [
+        { "length": "16\"", "available": true },
+        { "length": "18\"", "available": true },
+        { "length": "20\"", "available": false }
+      ],
+      "metalOptions": ["Yellow Gold", "White Gold"]
+    },
+    {
+      "id": "e1",
+      "name": "Aurora Diamond Studs",
+      "category": "earrings",
+      "price": 999.99,
+      "description": "Classic diamond stud earrings featuring brilliant-cut diamonds in a four-prong setting. A timeless addition to any jewelry collection.",
+      "details": "1 carat total weight diamonds (0.5 each), VS2 clarity, G color, 18k gold settings with secure backs.",
+      "features": ["Conflict-free diamonds", "Comfortable secure backs", "Gift box included"],
+      "materials": ["18k Gold", "Diamond"],
+      "images": [
+        "/images/ElegantEarrings.jpg",
+        "/images/ElegantEarrings.jpg",
+        "/images/ElegantEarrings.jpg"
+      ],
+      "inStock": true,
+      "featured": false,
+      "new": false,
+      "variants": [],
+      "metalOptions": ["Yellow Gold", "White Gold", "Rose Gold"]
+    },
+    {
+      "id": "e2",
+      "name": "Ruby Chandelier Earrings",
+      "category": "earrings",
+      "price": 1299.99,
+      "description": "Elegant chandelier earrings featuring Burmese rubies and diamonds in an artfully crafted cascade design. Perfect for special occasions.",
+      "details": "2 carat total weight Burmese rubies, 0.75 carat total weight diamonds, 18k gold, secure lever backs.",
+      "features": ["Natural Burmese rubies", "Handcrafted design", "Comfortable lever backs"],
+      "materials": ["18k Gold", "Ruby", "Diamond"],
+      "images": [
+        "/images/RubyEarrings.jpg",
+        "/images/ElegantRubyEarrings.jpg",
+        "/images/ElegantRubyEarrings.jpg"
+      ],
+      "inStock": true,
+      "featured": true,
+      "new": true,
+      "variants": [],
+      "metalOptions": ["Yellow Gold", "White Gold"]
+    },
+    {
+      "id": "b1",
+      "name": "Serenity Diamond Bangle",
+      "category": "bracelets",
+      "price": 2499.99,
+      "description": "A luxurious diamond bangle featuring a continuous line of brilliant-cut diamonds set in 18k gold. A statement piece that transitions effortlessly from day to evening.",
+      "details": "3 carat total weight diamonds, VS2 clarity, G color, 18k gold, secure clasp, adjustable fit.",
+      "features": ["Conflict-free diamonds", "Secure hidden clasp", "Sizing assistance available"],
+      "materials": ["18k Gold", "Diamond"],
+      "images": [
+        "/images/SerenityBracelet.jpg",
+        "/images/SerenityBracelet.jpg",
+        "/images/SerenityBracelet.jpg"
+      ],
+      "inStock": true,
+      "featured": true,
+      "new": false,
+      "variants": [
+        { "size": "Small", "available": true },
+        { "size": "Medium", "available": true },
+        { "size": "Large", "available": true }
+      ],
+      "metalOptions": ["Yellow Gold", "White Gold", "Rose Gold"]
+    },
+    {
+      "id": "b2",
+      "name": "Sapphire Tennis Bracelet",
+      "category": "bracelets",
+      "price": 1799.99,
+      "description": "A classic tennis bracelet featuring alternating sapphires and diamonds set in 18k white gold. Elegant and versatile for any occasion.",
+      "details": "2.5 carat total weight sapphires, 1.5 carat total weight diamonds, 18k white gold, secure box clasp with safety latch.",
+      "features": ["Blue Ceylon sapphires", "Double security clasp", "Adjustable length"],
+      "materials": ["18k White Gold", "Sapphire", "Diamond"],
+      "images": [
+        "/images/ElegantBracelet.jpg",
+        "/images/ElegantTennisBracelet.jpg",
+        "/images/tennisbracelet.jpg"
+      ],
+      "inStock": true,
+      "featured": false,
+      "new": true,
+      "variants": [
+        { "length": "6.5\"", "available": true },
+        { "length": "7\"", "available": true },
+        { "length": "7.5\"", "available": true }
+      ],
+      "metalOptions": ["White Gold"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "rings",
+      "name": "Rings",
+      "description": "Exquisite rings crafted with the finest materials. From engagement rings to statement pieces.",
+      "image": "/images/Rings.jpg",
+      "productCount": 2,
+      "startingPrice": 899.99
+    },
+    {
+      "id": "necklaces",
+      "name": "Necklaces",
+      "description": "Stunning necklaces to complement any outfit. From delicate pendants to statement pieces.",
+      "image": "/images/Necklaces.jpg",
+      "productCount": 2,
+      "startingPrice": 799.99
+    },
+    {
+      "id": "earrings",
+      "name": "Earrings",
+      "description": "Beautiful earrings for every occasion. From classic studs to chandelier styles.",
+      "image": "/images/ElegantEarrings.jpg",
+      "productCount": 2,
+      "startingPrice": 999.99
+    },
+    {
+      "id": "bracelets",
+      "name": "Bracelets",
+      "description": "Elegant bracelets crafted with precision. From tennis bracelets to bangles.",
+      "image": "/images/Bracelets.jpg",
+      "productCount": 2,
+      "startingPrice": 1799.99
+    }
+  ],
+  "filters": {
+    "materials": [
+      "18k Gold", 
+      "14k Gold", 
+      "Rose Gold", 
+      "White Gold", 
+      "Yellow Gold", 
+      "Platinum"
+    ],
+    "gemstones": [
+      "Diamond", 
+      "Sapphire", 
+      "Ruby", 
+      "Emerald", 
+      "Pearl"
+    ],
+    "priceRanges": [
+      {"id": "under1000", "name": "Under $1,000", "min": 0, "max": 999.99},
+      {"id": "1000to2000", "name": "$1,000 - $2,000", "min": 1000, "max": 1999.99},
+      {"id": "over2000", "name": "Over $2,000", "min": 2000, "max": 100000}
+    ],
+    "occasions": [
+      "Wedding", 
+      "Engagement", 
+      "Anniversary", 
+      "Birthday", 
+      "Everyday"
+    ]
+  }
+}
